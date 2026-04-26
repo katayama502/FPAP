@@ -1,7 +1,6 @@
 [build]
-  base    = "app-src"
-  command = "npm run build"
-  publish = "out"
+  command = "cd app-src && npm run build"
+  publish = "app-src/out"
 
 [build.environment]
   NODE_VERSION = "20"
