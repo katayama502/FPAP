@@ -1,5 +1,5 @@
 [build]
-  command = "cd app-src && npm run build"
+  command = "cd app-src && npm ci && npm run build"
   publish = "app-src/out"
 
 [build.environment]
